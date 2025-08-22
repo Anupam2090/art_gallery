@@ -10,6 +10,8 @@ This gallery is a reflection of my journey — where art meets technology, and w
 A simple yet professional **Art Gallery Website** Where Every Canvas Speaks a Thousand Words!, built with **PHP, MySQL, Bootstrap 5, and FontAwesome**.  
 It allows you (Admin) to manage artworks, about info, and contact details, while users can explore the gallery, sign up, and interact.
 
+![landing page Screenshot](screenshots/landing_page.png)
+![landing page Screenshot](screenshots/about.png)
 
 ## Quick Start
 
