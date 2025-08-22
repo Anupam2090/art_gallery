@@ -1,0 +1,34 @@
+# OS / System files
+.DS_Store
+Thumbs.db
+
+# Node & Python (if used anywhere)
+node_modules/
+__pycache__/
+
+# Environment / sensitive files
+.env
+*.env
+
+# Composer vendor (PHP packages)
+vendor/
+
+# Logs & cache
+*.log
+cache/
+tmp/
+*.bak
+
+# Uploads (if you want to keep empty folder in repo)
+uploads/*
+!uploads/.gitkeep
+
+# Database dumps
+*.sql
+config.php
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project

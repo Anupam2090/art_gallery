@@ -1,0 +1,315 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;500&display=swap');
+
+/* General */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f7f8fc;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(135deg, #b2046d, #b2046d);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #fff !important;
+  letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+  color: #fefcfc !important;
+  margin: 0 8px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #5e084b !important;
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card img {
+  object-fit: cover;
+  height: 220px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(135deg, #b2046d, #4e54c8);
+  border: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+.btn-primary:hover {
+  background: linear-gradient(135deg, #4e54c8, #3a3bb5);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 6px 15px rgba(20, 20, 20, 0.2);
+}
+
+.btn-outline-primary {
+    background: linear-gradient(135deg, #b2046d, #4e54c8);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background: linear-gradient(135deg, #dd2476, #ff512f);
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.btn-custom {
+  background: #710546;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  background: #b2046d;
+  transform: translateY(-2px);
+}
+
+.btn-success{
+  background: linear-gradient(135deg, #b2046d, #4e54c8);
+  border: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+.btn-success:hover {
+  background: linear-gradient(135deg, #4e54c8, #3a3bb5);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 6px 15px rgba(20, 20, 20, 0.2);
+}
+
+
+.about-card {
+    background: linear-gradient(135deg, #680707, #b2046d);
+    color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    height: 450px;   /* fixed height */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+/* Paragraph scrolls, not the card */
+.about-card p {
+    flex: 1;                 /* fill remaining space */
+    overflow-y: auto;        /* scroll only paragraph */
+    margin-bottom: 1rem;
+}
+
+/* Scrollbar styling inside paragraph */
+.about-card p::-webkit-scrollbar {
+    width: 5px;
+}
+.about-card p::-webkit-scrollbar-thumb {
+    background: #5a0b3d;
+    border-radius: 6px;
+}
+.about-card p::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* First Page - About Section */
+.about-section {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e196ab, #680707);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 50px;
+    color: #fff;
+    overflow: hidden;
+}
+
+/* Profile Image */
+.profile-pic {
+    width: 350px;
+    height: 350px;
+    object-fit:cover;
+    border:  solid #fff;
+    transition: transform 0.3s ease-in-out;
+}
+.profile-pic:hover {
+    transform: scale(1.08);
+}
+
+/* Gradient Button */
+.btn-gradient {
+    background: linear-gradient(135deg, #b2046d, #4e54c8);
+    color: #fff !important;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 12px 28px;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+.btn-gradient:hover {
+    background: linear-gradient(135deg, #dd2476, #ff512f);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Contact Card */
+.contact-card {
+    background: linear-gradient(135deg, #680707, #b2046d); /* matches About card */
+    color: #fff;
+    border-radius: 20px;
+    backdrop-filter: blur(6px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+/* Contact Links */
+.contact-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.contact-link:hover {
+    color: #ffccff; /* light highlight on hover */
+}
+
+
+/* Fade-in animation */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+.fade-in.delay-1 { animation-delay: 0.5s; }
+.fade-in.delay-2 { animation-delay: 1s; }
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.lead {
+  font-size: 1.2rem;         /* Slightly bigger than normal text */
+  line-height: 1.8;          /* Proper spacing between lines */
+  color: #f3eaea;               /* Dark grey for readability */
+  max-width: 700px;          /* Keeps paragraph in a nice width */
+  margin: 20px auto;         /* Center with spacing */
+  text-align: justify;       /* Structured, aligned text */
+  padding: 10px 15px;
+}
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(15px);
+  animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Delay effect */
+.delay-1 {
+  animation-delay: 0.5s;  /* Half second delay */
+}
+
+
+
+
+/* Offcanvas Menu */
+.offcanvas .nav-link {
+  font-size: 1.05rem;
+  font-weight: 500;
+  padding: 12px;
+  color: #333;
+  transition: 0.3s;
+}
+
+.offcanvas .nav-link:hover {
+  background: #f1f1f1;
+  border-radius: 6px;
+}
+
+/* Social Icons */
+.social a {
+  font-size: 1.2rem;
+  color: #b2046d;
+  margin: 0 8px;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social a:hover {
+  transform: translateY(-3px) scale(1.1);
+  color: #b2046d;
+}
+
+/* Footer */
+footer {
+  background: #b2046d;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .card img {
+    height: 180px;
+  }
+}
+
+
