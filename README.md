@@ -12,6 +12,8 @@ It allows you (Admin) to manage artworks, about info, and contact details, while
 
 ![landing page Screenshot](screenshots/landing_page.png)
 ![about Screenshot](screenshots/about.png)
+![user Screenshot](screenshots/user.png)
+![admin Screenshot](screenshots/admin_credential.png)
 
 ## Quick Start
 
