@@ -11,7 +11,7 @@ A simple yet professional **Art Gallery Website** Where Every Canvas Speaks a Th
 It allows you (Admin) to manage artworks, about info, and contact details, while users can explore the gallery, sign up, and interact.
 
 ![landing page Screenshot](screenshots/landing_page.png)
-![landing page Screenshot](screenshots/about.png)
+![about Screenshot](screenshots/about.png)
 
 ## Quick Start
 
